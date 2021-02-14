@@ -1,0 +1,36 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+  background-color: #2e2e2e; }
+
+div[class^=c] {
+  float: left;
+  border: solid 1px;
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.grid {
+  width: 100%; }
+
+.c25 {
+  width: 25%;
+  padding: 10px;
+  background-color: gainsboro; }
+
+@media only screen and (max-width: 800px) {
+  .grid .c25 {
+    width: 100%; } }
+
+.title, .intro {
+  color: white;
+  text-align: center; }
+
+.inputSearch, .buttonSearch {
+  width: 50%;
+  margin-left: 25%; }
+
+.newsImage {
+  max-width: 55%;
+  margin-left: 20%; }
