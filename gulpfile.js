@@ -38,4 +38,5 @@ gulp.task('serve', function () {
             livereload: true
         }));
 });
+
 gulp.task('default', gulp.parallel('watch:styles', 'watch:scripts', 'watch:html','serve'));

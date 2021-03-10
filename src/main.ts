@@ -22,7 +22,7 @@ let btnSearch = document.getElementById('searchButton');
 btnSearch.addEventListener('click', function () {
     let inputSearch = (<HTMLInputElement>document.getElementById('inputSearch')).value.toUpperCase();
     console.log(inputSearch);
-    var url = `http://newsapi.org/v2/everything?q=${inputSearch}&from${date}&sortBy=popularity&apiKey=356a0ae18676408cb5163093dceeb08e`;
+    var url = `http://localhost:3000/news?q=${inputSearch}`;
     var req = new Request(url);
 
     fetch(req)

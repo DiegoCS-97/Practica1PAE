@@ -13,7 +13,7 @@
   "keywords": [
     "compilers"
   ],
-  "author":"",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^4.0.2",
@@ -25,6 +25,8 @@
     "typescript": "^4.1.5"
   },
   "dependencies": {
-    "newsapi": "^2.4.1"
+    "express": "^4.17.1",
+    "newsapi": "^2.4.1",
+    "node-fetch": "^2.6.1"
   }
 }
