@@ -19,6 +19,7 @@ let cardHTML = `{{#each news}}
 let card = document.getElementById('card');
 
 let btnSearch = document.getElementById('searchButton');
+
 btnSearch.addEventListener('click', function () {
     let inputSearch = (<HTMLInputElement>document.getElementById('inputSearch')).value.toUpperCase();
     console.log(inputSearch);
@@ -49,3 +50,4 @@ btnSearch.addEventListener('click', function () {
             );
         });
 });
+

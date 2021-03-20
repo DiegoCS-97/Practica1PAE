@@ -41,3 +41,20 @@ btnSearch.addEventListener('click', function () {
         }));
     });
 });
+
+var modal = document.getElementById("myModal");
+var btn = document.getElementById("logIn");
+var span = document.getElementsByClassName("close")[0];
+var myForm = document.getElementById("logInForm");
+
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+span.onclick = function() {
+    modal.style.display = "none";s
+}
+
+btnClose.onclick = function() {
+    modal.style.display = "none";
+}
